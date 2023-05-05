@@ -2,7 +2,8 @@ import React from "react"
 import phoneIcon from './assets/phone-icon.png'
 import emailIcon from './assets/mail-icon.png'
 
-export default function Contact(props) {
+
+function Contact(props) {
     
     return (
         <div className="contact-card">
@@ -19,3 +20,6 @@ export default function Contact(props) {
         </div>
     )
 }
+
+
+export default Contact
